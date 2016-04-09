@@ -1,0 +1,21 @@
+{
+  "name": "MakeMeLater",
+  "version": "1.0",
+	"description": "This extension parses the current webpage for recipe data and writes the recipe to a specified file path.",
+  "icons": { "128": "resources/icon.png" },
+  "background": { "scripts": ["js/background.js"] },
+  "content_scripts": [
+    { "matches": ["http://*/*"], "js": ["js/recipe_content_script.js"] }
+  ],
+  "permissions": [
+    "tabs",
+    "https://maps.google.com/*",
+    "https://maps.googleapis.com/*"
+  ],
+  "page_action": {
+      "default_name": "Display Map",
+      "default_icon": "resources/icon.png",
+      "default_popup": "popout.html"
+  },
+  "manifest_version": 2
+}
