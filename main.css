@@ -16,14 +16,20 @@ body {
     position: fixed;
     top: 100px;
     left:130px;
-    font-size: 15px;
+    /*font-size: 15px;
     border-radius: 7px;
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid black;*/
+    font-family: verdana;
+    text-align: center;
     color: #43A765;
 }
 
 .success {
+    color: #b71616;
 	font-family: verdana;
 	text-align: center;
+    /*position: fixed;*/
+    margin: auto;
+    font-size: 15px;
 }

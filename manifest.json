@@ -14,9 +14,9 @@
 
   "page_action": {
       "default_name": "BuyMeLater",
-      "default_icon": "resources/icon.png",
+      "default_icon": "resources/logo.png",
       "default_popup": "popout.html"
   },
 
-  "manifest_version": 2,
+  "manifest_version": 2
 }
